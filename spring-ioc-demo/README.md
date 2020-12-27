@@ -5,8 +5,17 @@
 3. 熟悉Bean的声明周期, Bean的后置处理器等概念
 
 ## 二, Spring中比较重要的几个概念详解
-1. BeanDefinition
-2. AnnotatedBeanDefinitionReader
+1. BeanDefinition(Bean的定义)
+   
+   Bean定义方式:  
+   xml定义, @Bean, @Component(@Service, @Controller...)  
+   
+2. BeanDefinitionReader AnnotatedBeanDefinitionReader
+ 
+   将bean定义(xml, @Bean, @Component)转化为BeanDefinition
+   
+
+
 3. XmlBeanDefinitionReader
 4. ClassPathBeanDefinitionScanner
 5. BeanFactory
